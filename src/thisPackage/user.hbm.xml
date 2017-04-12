@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+    <!DOCTYPE hibernate-mapping PUBLIC  
+     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+      
+     <hibernate-mapping>  
+      <class name="thisPackage.User" table="user">  
+        <id name="id">  
+         <generator class="assigned"></generator>  
+        </id>  
+        <property name="Scheme"></property>
+        <property name="timeTaken"></property>
+        <property name="state"></property>  
+        <property name="timeC1"></property>
+        <property name="stateC1"></property>  
+        <property name="timeC2"></property>
+        <property name="stateC2"></property>
+        <property name="timeC3"></property>
+        <property name="stateC3"></property>
+        <property name="timeC4"></property>
+        <property name="stateC4"></property>
+        <property name="timeC5"></property>
+        <property name="stateC5"></property>
+        <property name="timeC6"></property>
+        <property name="stateC6"></property> 
+        <property name="timeC7"></property>
+        <property name="stateC7"></property>                
+      </class>  
+                
+     </hibernate-mapping> 
